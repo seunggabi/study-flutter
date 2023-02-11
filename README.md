@@ -28,6 +28,9 @@ cd ~/Library/Application Support/JetBrains/Toolbox/apps/AndroidStudio/ch-0/221.6
 sudo ln -s jbr jre
 ```
 ```shell
+flutter config --android-sdk ~/Library/Android/sdk 
+```
+```shell
 flutter create app
 
 cd app
