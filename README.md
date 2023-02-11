@@ -20,7 +20,7 @@ export LDFLAGS="-L/opt/homebrew/opt/ruby/lib"
 export CPPFLAGS="-I/opt/homebrew/opt/ruby/include"
 
 brew cleanup ruby
-sudo gem install cocoapods
+brew instal coocapods
 ```
 ```shell
 cd ~/Library/Application Support/JetBrains/Toolbox/apps/AndroidStudio/ch-0/221.6008.13.2211.9514443/Android Studio.app/Contents
