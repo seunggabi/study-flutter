@@ -13,6 +13,21 @@ sudo xcode-select --switch /Applications/Xcode.app/Contents/Developer
 sudo xcodebuild -runFirstLaunch
 ```
 ```shell
+brew install ruby
+
+echo 'export PATH="/opt/homebrew/opt/ruby/bin:$PATH"' >> ~/.zshrc
+export LDFLAGS="-L/opt/homebrew/opt/ruby/lib"
+export CPPFLAGS="-I/opt/homebrew/opt/ruby/include"
+
+brew cleanup ruby
+sudo gem install cocoapods
+```
+```shell
+cd ~/Library/Application Support/JetBrains/Toolbox/apps/AndroidStudio/ch-0/221.6008.13.2211.9514443/Android Studio.app/Contents
+
+sudo ln -s jbr jre
+```
+```shell
 flutter create app
 
 cd app
