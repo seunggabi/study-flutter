@@ -36,4 +36,5 @@ flutter create app
 cd app
 
 flutter run
+flutter run -d chrome --web-browser-flag "--disable-web-security"
 ```

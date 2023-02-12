@@ -25,14 +25,15 @@ class _HomePageState extends State<HomePage> {
 
   @override
   void initState() {
-    super.initState();
     _controller = YoutubePlayerController(
       initialVideoId: 'dQw4w9WgXcQ',
-      flags: YoutubePlayerFlags(
+      flags: const YoutubePlayerFlags(
         autoPlay: true,
         mute: false,
       ),
     );
+
+    super.initState();
   }
 
   @override
